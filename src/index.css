@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .darkMode{
+        background-color: rgb(2 6 23);
+        color: gainsboro;
+        transition: all 300ms ease-in-out
+    }
+}
