@@ -9,6 +9,7 @@ import EntertainmentNews from "./components/EntertainmentNews";
 import BusinessNews from "./components/BusinessNews";
 import HealthNews from "./components/HealthNews";
 import TechnologyNews from "./components/TechnologyNews";
+import Footer from "./components/Footer";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -31,6 +32,7 @@ function App() {
           <Route path="/technology" exact element={<TechnologyNews category='Technology' />} />
         </Routes>
       </Router>
+      <Footer/>
     </div>
   );
 }
